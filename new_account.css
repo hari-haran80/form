@@ -1,0 +1,176 @@
+.main_div{
+    
+    height: 600px;
+    width: 370px;
+    position: relative;
+    padding: 5px;
+    background: none;
+    left: 265px;
+    backdrop-filter: blur(10px);
+    margin-top: 50px;
+}
+/* for background images*/
+
+.image_div{
+    width: 900px;
+    height: 600px;
+    position: absolute;
+    border-radius: 30px;
+    background-repeat: no-repeat;
+    align-items: center;
+    justify-content: center;
+    background-image: url(./lap.png);
+    left: 320px;
+    border: 5px solid black;
+}
+
+.newform{
+    background: none;     
+}
+
+/* for heading */
+
+h1{
+    position: relative;
+    background:none;
+    color: black;
+    font-weight: 700;
+    margin-top: 15px;
+    
+}
+/* for first and last name section*/
+
+.names_div{
+    display:flex;
+    position: relative;
+    background:none; 
+}
+.name{
+    background: none; 
+}
+.firstname_div, .lastname_div{
+    background: none;
+    width: 100% ;
+    font-weight: 600;
+    font-size: larger;
+    margin-top: 5px;
+    font-size: 20px;
+}
+.lastname_div{
+    margin-left: 20px;
+}
+
+/* for input boxes*/
+
+.names{
+    width: 100%;
+    margin-top: 5px;
+}
+
+/* for email div*/
+
+.enter_email{
+    position: relative;
+    background: none;
+    margin-top: 5px;
+    font-weight: 606;
+    font-size: 20px;
+}
+.email{
+    width: 100%;
+    margin-top: 5px;
+}
+
+/* for mobile number section*/
+
+.number_div{
+    background: none;
+    position: relative;
+    font-size: 20px; 
+    margin-top: 5px;
+    font-weight: 600;
+}
+.mobile_no{
+    background: none;
+    
+}
+.number{
+    width: 100%;
+    margin-top: 5px;
+}
+
+/* New Password and Confirm Password */
+
+.pass{
+    background: none;
+}
+.confirm_password, .new_password{
+    background: none;
+    font-weight: 600;
+    font-size: larger;
+}
+.your{
+    width: 100%;
+}
+
+/* birth day selection section */
+
+.birth_date{
+    background: none;
+    margin-top: 10px;
+}
+.date{
+    background: none;
+    font-size: larger;
+    font-weight: 600;
+}
+.birthday{
+    margin-left: 15px;
+    background: aliceblue;
+}
+
+/* for gemder radio box*/
+
+.gender_div{
+    background: none;
+    position: relative;
+    margin-top: 5px;
+    font-size: 20px;
+    font-weight: 600;
+    
+}
+.gender{
+    background: none;
+    position: relative;
+    display: block;
+}
+   
+.female{
+    margin-left: 20px;
+}
+
+/* for submit box*/
+
+.submit_div{
+    border-radius:50px ;
+    margin-left: 120px;
+    margin-top: 20px;
+    background: none;
+    position: relative;
+}
+
+/* for icon section*/
+
+.buttons_div{
+    position: inherit;
+    display: flex;
+    margin-left: 50px;
+    margin-top: 40px;
+}
+
+/* for (or) section*/
+
+.para{
+ margin-top: 325px;
+ margin-left: 55px;   
+}

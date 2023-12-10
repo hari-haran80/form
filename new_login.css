@@ -1,0 +1,185 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    background-image: linear-gradient(to right, aliceblue 0px, skyblue 5% , lightblue 10%, purple 200%);
+}
+.main_div{
+    width: 902px;
+    height: 552px;
+    margin: auto;
+    margin-top: 80px;
+    border-radius:30px ;
+}
+
+/* inserting background immage */
+
+.img_div{
+    width: 900px;
+    height: 550px;
+    position: absolute;
+    border-radius: 30px;
+    background-repeat: no-repeat;
+    align-items: center;
+    justify-content: center;
+    background-image: url(./5.jpg);
+    left: 320px;
+}	
+
+/* welcome heading */
+
+.welcome{
+    font-size: 30px;
+    position: relative;
+    background: none;
+    top: 50px;
+    left: 50px; 
+}
+
+/* login heading */
+
+.heading_div{
+    left: 10px;
+    font-size: 30px;
+    background: none;
+    position: relative;
+    top: 60px;
+    left: 50px;
+}
+
+/* entire form */
+
+.form{
+    position: relative;
+    background: none;
+    top: 60px;
+    left: 50px;
+}
+
+/* email password and inputs for both*/
+
+.email_div{
+    background: none;
+    margin-top: 20px;
+}
+.password_div{
+    background: none;
+}
+.Email{
+    background: none;
+}
+.password{
+    background: none;
+}
+.input{
+    color: black;
+    font-size: 15px;
+    font-weight: 600;
+    color: black;
+    width: 250px;
+    height: 25px;
+    background: aliceblue;
+}
+
+/* forgot password*/
+
+.forget{
+    background: none;
+    position: relative;
+    top: 18px;
+    left: 145px;
+    text-decoration: none;
+    color: black;
+    font-size: 14px;
+}
+
+/* login css*/
+
+.login_div{
+    width:100px ;
+    background: none;
+    position: relative;
+    top: 25px;
+    left: 70px;
+}
+#submit{
+    border: 1px solid black;
+    width: 100px;
+    height: 35px;
+    border-radius: 50px;
+    cursor: pointer;
+    background: palevioletred;
+    color: antiquewhite;
+    font-weight: 600;
+}
+
+/* or continue*/
+
+.para{
+    color: blue;
+    font-size: 14px;
+    position: absolute;
+    background: none;
+    top: 190px;
+    left: 75px;
+}
+
+/* icons from font awsome */
+
+.buttons_div{
+    position: relative;
+    top: 100px;
+    background: none;
+    font-size: 30px;
+}
+.icon_div{
+    border-radius:50px ;
+    margin-left: 5px;
+    display: inline;
+    background:whitesmoke;
+    border: 1px solid blue;
+    
+}
+.fa-brands{
+    width: 70px;
+    text-align: center;
+    background: none;
+    text-decoration: none;
+}
+a{
+    font-size: 20px;
+}
+
+/* sign up for free */
+
+.account_div{
+    background: none;
+    margin-top: 15px;
+}
+.account{
+    background: none;
+    font-size: 15px;
+    display: inline;
+}
+.a{
+    background: none;
+    font-size: 15px;
+    color: blue;
+    margin-left: 5px;
+    text-decoration: none;
+}
+
+/*form hover effects*/
+
+#submit:hover{
+    background: lightgreen;
+    color: black;
+    transform: scale(1.2);
+}
+.icon_div:hover{
+    background: lightgreen;
+}
+a:hover{
+    color: red;
+    transform: scale(1.2);
+}
